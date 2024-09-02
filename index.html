@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <!-- <h1>Hello, world!</h1> -->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-danger-subtle pt-3 pb-3">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Прем'єр-ліга
+ </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#"></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"> Англійський футбол</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Клуби
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Челсі</a></li>
+            <li><a class="dropdown-item" href="#">Арсенал</a></li>
+            <li><a class="dropdown-item" href="#">Ліверпуль</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+    </header>
+    <main>
+        <section>
+            <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true" >
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./images/pexels-gina-bichsel-366533903-14433620.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./images/pexels-jaralol-17940816.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./images/pexels-tonywuphotography-9251066.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+        </section>
+        <section>
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+        Арсенал
+      </button>
+    </h2>
+    <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">"Арсенал" – це відомий футбольний клуб з Лондона, Англія. Клуб має багату історію, був заснований у 1886 році і є одним із найуспішніших клубів Англії. Вони багаторазово вигравали Прем'єр-лігу, Кубок Англії та інші трофеї.</code> </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+        Челсі
+      </button>
+    </h2>
+    <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">"Челсі" – це інший відомий футбольний клуб з Лондона, Англія. Заснований у 1905 році, "Челсі" здобув світове визнання завдяки своїм численним успіхам у національних та міжнародних турнірах.<code></code> </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+        Барселона
+      </button>
+    </h2>
+    <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">"Барселона" – це один із найуспішніших і найвідоміших футбольних клубів у світі, що базується в Барселоні, Іспанія. Заснований у 1899 році, клуб має величезну кількість трофеїв, включаючи перемоги в Лізі чемпіонів УЄФА, Ла Лізі та Кубку Іспанії.<code></code></div>
+    </div>
+  </div>
+</div>
+        </section>
+        <section>
+            <div class="d-grid gap-2">
+  <button class="btn btn-primary" type="button">Ліга чемпіонів</button>
+  <button class="btn btn-primary" type="button">Ліга європи</button>
+</div>
+        </section>
+    </main>
+    <footer>
+        <ul class="nav flex-column bg-danger-subtle pt-3 pb-3">
+  <li class="nav-item">
+    <a class="nav-link active" aria-current="page" href="#">Трофеї</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Гравці</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Форма</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link disabled" aria-disabled="true">Читати Більше</a>
+  </li>
+</ul>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
